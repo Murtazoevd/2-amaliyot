@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .icon{
+    width: 80%;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container  .facebook{
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black; */
+    background-color: blue;
+    overflow: hidden;
+}
+
+.container .facebook .before{ 
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+.container .facebook .backfacebook{
+    position: absolute;
+    /* top: 0; */
+    /* right: 0; */
+    left: 20px;
+    bottom: 80px;
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black; */
+    /* border-bottom-left-radius: 50px; */
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .1s;
+}
+
+.facebook:hover .backfacebook{
+    bottom: 256px;
+    left: 132px;
+    background-color: #fff;
+    
+}
+
+.container .instagram{
+    width: 150px;
+    height: 150px;
+    background-color: blue; 
+}
+
+.container .instagram .before{
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+.container .instagram .backinstagram{
+    width: 150px;
+    height: 150px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 80px;
+    left: 250px;
+    transition: .1s;
+}
+
+.instagram:hover .backinstagram{
+    bottom: 256px;
+    left: 358px;
+    background-color: #fff;
+}
+
+.container .telegram{
+    width: 150px;
+    height: 150px;
+    background-color: blue; 
+}
+
+.container .telegram .before{
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+.container .telegram .backtelegram{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 80px;
+    left: 480px;
+    transition: .1s;
+}
+
+.telegram:hover .backtelegram{
+    bottom: 256px;
+    left: 584px;
+    background-color: #fff;
+}
+
+.container .twiter{
+    width: 150px;
+    height: 150px;
+    background-color: blue; 
+}
+
+.container .twiter .before{
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+.container .twiter .backtwiter{
+    width: 150px;
+    height: 150px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 80px;
+    left: 710px;
+    transition: .1s;
+}
+
+.twiter:hover .backtwiter{
+    bottom: 256px;
+    left: 810px;
+    background-color: #fff;
+}
+
+.container .youtube{
+    width: 150px;
+    height: 150px;
+    background-color: blue; 
+    overflow: hidden;
+}
+
+.container .youtube .before{
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+.container .youtube .backyoutube{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 80px;
+    left: 930px;
+    transition: .1s;
+}
+
+.youtube:hover .backyoutube{
+    bottom: 256px;
+    left: 1036px;
+    background-color: #fff;
+}
